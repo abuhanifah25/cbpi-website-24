@@ -6,3 +6,26 @@
     font-weight: <weight>;
     font-style: normal;
 }
+
+
+/*General CSS*/
+:root{
+    --primaryColor:#20ca4b;
+    --LightColor:#ffffff;
+    --SecondaryColor:#f99a00;
+    --DarkColor:#585858;
+}
+
+.primary-color{
+    background-color: var(--primaryColor);
+}
+
+#topbar .bi{
+    color: var(--primaryColor) !important;
+}
+
+/*Header CSS*/
+.top-header-span{
+    font-size: 17px;
+    vertical-align: middle;
+}
