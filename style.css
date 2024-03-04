@@ -95,3 +95,25 @@
     font-size: 14px;
     color: var(--LightColor);
 }
+
+/* student info */
+
+.std-info .info-icons {
+    height: 70px;
+    width: 85px;
+    padding: 7px;
+}
+
+
+.card-body{
+    color: #000000;
+}
+
+.std-info  .card-title{
+    font-size: 29px;
+    font-weight: 750;
+}
+
+.std-info p{
+    
+}
