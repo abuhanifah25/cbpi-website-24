@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: "Public Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 
@@ -33,7 +33,7 @@
 
 /* navber */
 .container{
-    height: 42px;
+    /* height: 40px; */
     color: #ffffff;
     
 }
@@ -115,5 +115,35 @@
 }
 
 .std-info p{
-    
+    font-size: 16px;
+}
+
+
+/* About section */
+
+.container{
+    color: #000000;
+    font-size: px;
+}
+
+.fw-bold{
+    text-align: center;
+}
+
+
+/* cpbi */
+.cpbi{
+    text-align: center;
+}
+
+.btn-outline-dark{
+    border-color: var(--primaryColor)!important;
+    background-color:rgb(0, 190, 63) !important;
+    color: var(--primaryColor);
+}
+
+.btn-outline-dark:hover{
+    border-color: var(--primaryColor)!important;
+    background-color: transparent !important;
+    color: var(--primaryColor)!important;
 }
