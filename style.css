@@ -147,3 +147,20 @@
     background-color: transparent !important;
     color: var(--primaryColor)!important;
 }
+
+
+/* course section */
+
+.course-heading{
+    color: var(--DarkColor);
+    cursor: pointer;
+}
+
+.course-heading:hover{
+    color: var(--primaryColor);
+}
+
+.course-section p{
+    font-size: 14.5px;
+    color: #5e8768;
+}
