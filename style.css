@@ -88,7 +88,7 @@
 }
 
 .hero .carousel-heading-topics span{
-    color: rgb(4, 137, 11);
+    color: rgb(99, 255, 107);
 }
 
 .hero .carousel-item p{
@@ -163,4 +163,50 @@
 .course-section p{
     font-size: 14.5px;
     color: #5e8768;
+}
+
+/* student */
+
+.testimonials .item h3{
+    color: var(--primaryColor);
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.testimonials .item h4{
+    font-size: 15px;
+
+}
+
+.testimonials .tm-people{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonials .des{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    color: var(--DarkColor);
+}
+
+/* footer */
+
+footer{
+    background-color: var(--primaryColor);
+    color: var(--LightColor );
+}
+
+li{
+    /* list-style: none; */
+}
+
+.social1{
+    text-align: left;
+    letter-spacing: 6px;
+    font-size: 24px;
+    margin-left: 100px;
 }
