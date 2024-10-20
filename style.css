@@ -118,6 +118,10 @@
     font-size: 16px;
 }
 
+.card{
+    margin-top: 25px;
+}
+
 
 /* About section */
 
@@ -209,4 +213,12 @@ li{
     letter-spacing: 6px;
     font-size: 24px;
     margin-left: 100px;
+}
+
+
+/* our empolyee */
+
+.raabby{
+    font-size: 40px;
+    size: 10px;
 }
